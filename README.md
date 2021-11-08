@@ -18,15 +18,10 @@ function add (a,b){
     return a+b
 }
 test("1+2 should equal to 3",()=>{
-expect(add(1,2)).toEqual(3)
+    return expect(add(1,2)).toEqual(3)
 })
 ```
-```js
-const {test , expect} = require("dinex")
-function CarModel (model){
-    return { CarModel:model }
-}
-test("CarModel should work correctly",()=>{
-expect(carModel("Ford")).toEqual({ CarModel:"Ford" }
-})
+Result:
+```
+Test 1+2 should equal to 3 passed
 ```
