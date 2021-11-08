@@ -1,6 +1,6 @@
 {
   "name": "dinex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "easy javascript testing",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DinexJS/dinex/issues"
   },
-  "homepage": "https://github.com/DinexJS/dinex#readme"
+  "homepage": "https://github.com/DinexJS/dinex#readme",
+  "readme": "README.md",
+  "categories": [
+    "Testing"
+  ]
 }

@@ -1,9 +1,8 @@
-function findFileName() {
-    let path = require('path');
-    let filename = path.basename(__filename);
-    return filename;
+const test = (name , callback)=>{
+    let passed = "failed";
+    if (callback()===true){
+        passed = "passed";
+    }
+    console.log(`${name} test : ${passed}`);
 }
-module.exports = {
-    findFileName,
-    test
-}
+module.exports = {test}

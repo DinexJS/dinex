@@ -1,5 +1,8 @@
 const test = (name , callback)=>{
-    let passed = callback===true ? true : false;
+    let passed = "failed";
+    if (callback()===true){
+        passed = "passed";
+    }
     console.log(`${name} test : ${passed}`);
 }
 const expect = (a)=>{
