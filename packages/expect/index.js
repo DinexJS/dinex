@@ -1,6 +1,6 @@
 const expect = (a)=>{
     return {
-        toEqual: (b)=>{
+        toBe: (b)=>{
         if (typeof a === "object" && a !== null){
             return JSON.stringify(a) === JSON.stringify(b)
         }else{

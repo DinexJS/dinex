@@ -1,15 +1,10 @@
-function findFileName() {
-    let path = require('path');
-    let filename = path.basename(__filename);
-    return filename;
-}
 const test = (name , callback)=>{
-    console.log(`${name} test`);
-    callback();
+    let passed = callback===true ? true : false;
+    console.log(`${name} test : ${passed}`);
 }
 const expect = (a)=>{
     return {
-        toEqual: (b)=>{
+        toBe: (b)=>{
         if (typeof a === "object" && a !== null){
             return JSON.stringify(a) === JSON.stringify(b)
         }else{

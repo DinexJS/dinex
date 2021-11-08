@@ -3,10 +3,6 @@ function findFileName() {
     let filename = path.basename(__filename);
     return filename;
 }
-const test = (name , callback)=>{
-    console.log(`${name} test`);
-    callback();
-}
 module.exports = {
     findFileName,
     test
