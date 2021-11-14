@@ -18,7 +18,7 @@ function add (a,b){
     return a+b
 }
 test("1+2 should equal to 3",()=>{
-    return expect(add(1,2)).toEqual(3)
+    expect(add(1,2)).toEqual(3)
 })
 ```
 Result:
