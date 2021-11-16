@@ -16,4 +16,9 @@ const expect = (a)=>{
         }
     }
 }
+
+function not(state){
+    return !state;
+}
+
 module.exports = {test,expect}
