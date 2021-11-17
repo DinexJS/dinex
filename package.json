@@ -20,5 +20,8 @@
   "readme": "README.md",
   "categories": [
     "Testing"
-  ]
+  ],
+  "devDependencies": {
+    "rollup": "^2.60.0"
+  }
 }
