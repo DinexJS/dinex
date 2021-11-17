@@ -1,4 +1,4 @@
-const expect = (a)=>{
+export const expect = (a)=>{
     return {
         toBe: (b)=>{
         if (typeof a === "object" && a !== null){
