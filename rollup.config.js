@@ -4,14 +4,14 @@ export default{
     // outputs for iife and cjs with minified code
     output: [
         {
-            file: 'dist/dinex.js',
+            file: 'dist/dinex.iife.js',
             format: 'iife',
             name: 'index',
         },
         {
             file: 'dist/dinex.js',
             format: 'cjs',
-        }
+        },
 
         {
             file: 'dist/dinex.iife.min.js',
