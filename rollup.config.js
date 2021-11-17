@@ -4,13 +4,23 @@ export default{
     // outputs for iife and cjs with minified code
     output: [
         {
-            file: 'dist/dinex.iife.js',
+            file: 'dist/dinex.js',
+            format: 'iife',
+            name: 'index',
+        },
+        {
+            file: 'dist/dinex.js',
+            format: 'cjs',
+        }
+
+        {
+            file: 'dist/dinex.iife.min.js',
             format: 'iife',
             name: 'index',
             plugins: [terser()]
         },
         {
-            file: 'dist/dinex.js',
+            file: 'dist/dinex.min.js',
             format: 'cjs',
             plugins: [terser()]
         }
