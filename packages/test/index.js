@@ -4,4 +4,5 @@ export const test = (name , callback)=>{
         passed = "passed";
     }
     console.log(`${name} test : ${passed}`);
+    return callback()===true;
 }
