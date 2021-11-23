@@ -1,6 +1,7 @@
 const {expect} = require("../dist/dinex.js")
 let passed;
 // Tests for expect
+
 const expected = {
     a:1,
     b:"hello",
@@ -25,6 +26,7 @@ const returned = [
     expect(actual.e).toBe(expected.e),
     expect(actual.g).toBe(expected.g)
 ]
+function test() {
 if (JSON.stringify(returned) === JSON.stringify([true, false , false, true, false, true])){
     passed="passed";
 }
@@ -37,3 +39,6 @@ if (passed==="failed") {
     throw new Error("expect tests failed");
 
 }
+
+}
+module.exports = test;

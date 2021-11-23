@@ -1,7 +1,8 @@
 const {test} = require('../dist/dinex.js');
 let passed;
 // test for test
-const returned = [
+function tester() {
+    const returned = [
     test('test', ()=>{
     return 1===1 //true
     }),
@@ -20,3 +21,5 @@ if (passed==="failed") {
     console.log(returned);
     throw new Error("test failed");
 }
+}
+module.exports = tester;
