@@ -1,5 +1,5 @@
 # Dinex.JS
-![logo](https://user-images.githubusercontent.com/74927578/140618927-02b38c68-9661-42eb-948b-0510c4f18ebf.png)
+![Easy JavaScript testing](https://user-images.githubusercontent.com/74927578/143604381-1b00245e-436f-452b-b22c-555e9cb09efe.png)
 
 Dinex is an easy , simple and light javaScript library for testing.
 
