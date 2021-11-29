@@ -1,4 +1,4 @@
-const expect = require("./expect.js")
-const test = require("./test.js")
-expect()
-test()
+const expect = require('./expect.js');
+const test = require('./test.js');
+expect();
+test();

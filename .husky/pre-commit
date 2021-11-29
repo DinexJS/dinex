@@ -2,4 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npx rollup -c
+npx prettier --write .
 git add .
