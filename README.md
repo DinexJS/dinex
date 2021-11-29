@@ -3,13 +3,6 @@
 
 Dinex is an easy , simple and light javaScript library for testing.
 
-## Installation
-You can use npm to install dinex:
-```bash
-npm install dinex
-# or use the shortcut
-npm i dinex
-```
 ## Example
 Writing tests is dinex is so easy so Take a look at this examples:
 ```js
