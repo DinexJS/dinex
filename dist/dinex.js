@@ -11,6 +11,13 @@ const expect = (a) => {
         return a === b;
       }
     },
+    Not: (s) => {
+      return {
+        toBe: (b) => {
+          return !s.toBe(b);
+        },
+      };
+    },
   };
 };
 
