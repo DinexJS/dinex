@@ -11,10 +11,14 @@ const expect = (a) => {
         return a === b;
       }
     },
-    Not: (s) => {
+    Not: {
       return {
         toBe: (b) => {
-          return !s.toBe(b);
+       if (typeof a === 'object' && a !== null) {
+        return JSON.stringify(a) !== JSON.stringify(b);
+      } else {
+        return a !== b;
+      }
         },
       };
     },
