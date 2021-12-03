@@ -19,9 +19,9 @@ const expect = (a) => {
         return a !== b;
       }
         },
-      };
+      }
     },
-  };
+  }
 };
 
 const test = (name, callback) => {
