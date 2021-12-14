@@ -23,13 +23,13 @@ const returned = [
   expect(actual.b).toBe(expected.b),
   expect(actual.c).toBe(expected.c),
   expect(actual.d).toBe(expected.d),
-  expect(actual.e).toBe(expected.e),
-  expect(actual.g).toBe(expected.g),
+  expect(actual.e).Not.toBe(expected.e),
+  expect(actual.g).Not.toBe(expected.g),
 ];
 function test() {
   if (
     JSON.stringify(returned) ===
-    JSON.stringify([true, false, false, true, false, true])
+    JSON.stringify([true, false, false, true, true, false])
   ) {
     passed = 'passed';
   } else {

@@ -10,6 +10,13 @@ var index = (function (exports) {
           return a === b;
         }
       },
+      Not: (s) => {
+        return {
+          toBe: (b) => {
+            return !s.toBe(b);
+          },
+        };
+      },
     };
   };
 
